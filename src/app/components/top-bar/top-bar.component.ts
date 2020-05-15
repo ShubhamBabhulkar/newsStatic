@@ -1,4 +1,3 @@
-import { ProductService } from 'src/app/service/product.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -9,9 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class TopBarComponent implements OnInit {
   cartCount = 0;
 
-  constructor(
-    public productService: ProductService
-  ) { }
+  constructor() { }
 
   ngOnInit() {}
 
